@@ -3,7 +3,7 @@ var jsonfile = require('jsonfile');
 
 var file = 'data.json';
 
-scrapeIt("http://ionicabizau.net", {
+scrapeIt("http://list.am", {
     title: ".header h1"
   , desc: ".header h2"
   , avatar: {
