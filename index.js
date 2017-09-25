@@ -1,4 +1,4 @@
-var scrapeIt = require("scrape-it");
+/*var scrapeIt = require("scrape-it");
 var jsonfile = require('jsonfile');
 
 var file = 'data.json';
@@ -58,4 +58,4 @@ scrapeIt("http://ionicabizau.net", {
     {
         console.error(err);
     })
-});
+});*/
