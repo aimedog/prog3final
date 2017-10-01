@@ -43,7 +43,7 @@ function start() {
     fs.readFile(urlfile, 'utf8', function (err, data) {
         if (err) throw err;
         url_data = JSON.parse(data);
-        scraper_houses(0)
+        scraper_houses(85)
     })
 };
 
@@ -56,9 +56,20 @@ function scraper_houses(i) {
                 type: ".c:nth-child(1) > .i",
                 rooms: ".c:nth-child(2) > .i",
                 square: ".c:nth-child(3) > .i",
-                price: ".price",
-                location: ".loc",
-                helping: ".footer"
+                price: {
+                    selector: ".price",
+                    convert: function (x) {
+                        var re = /$ (.*)/i;
+                        if (re.test(x)) {
+                            var found = x.match(re);
+                            console.log(found[1]);
+                            return found[1];
+                        } else {
+                            return "";
+                        }
+                    }
+                },
+                location: ".loc"
             }
         }
     }).then(function (page) {
@@ -69,7 +80,7 @@ function scraper_houses(i) {
                 i = i + 1;
                 if (i < url_data.houses.length) {
                     scraper_houses(i);
-                    if (i % 2 == 0) setTimeout(function(){
+                    if (i % 2 == 0) setTimeout(function () {
                         console.log('Waiting for 5 minutes');
                     }, 5000)
                 } else {
@@ -78,7 +89,6 @@ function scraper_houses(i) {
             }, 3000);
     })
 }
-
-
+//starting scraper
+//scraper_list(1);
 start();
-//scraper_list();
