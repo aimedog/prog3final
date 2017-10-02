@@ -43,7 +43,7 @@ function start() {
     fs.readFile(urlfile, 'utf8', function (err, data) {
         if (err) throw err;
         url_data = JSON.parse(data);
-        scraper_houses(85)
+        scraper_houses(0)
     })
 };
 
@@ -59,14 +59,9 @@ function scraper_houses(i) {
                 price: {
                     selector: ".price",
                     convert: function (x) {
-                        var re = /$ (.*)/i;
-                        if (re.test(x)) {
-                            var found = x.match(re);
-                            console.log(found[1]);
-                            return found[1];
-                        } else {
-                            return "";
-                        }
+                        var re = /[^\w\s]/gi;
+                        var f = x.replace(re,'');
+                        return f;
                     }
                 },
                 location: ".loc"
@@ -90,5 +85,4 @@ function scraper_houses(i) {
     })
 }
 //starting scraper
-//scraper_list(1);
-start();
+scraper_list(1);
