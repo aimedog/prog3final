@@ -43,18 +43,54 @@ function drawPieChart() {
         url: "/houses",
         dataType: "json",
         success: function (jsonData) {
+            var roomarr = [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+            ];
+            for (i = 0; i < jsonData.length; i++) {
+                if (jsonData[i].rooms == 1) {
+                    roomarr[0].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms == 2) {
+                    roomarr[1].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms == 3) {
+                    roomarr[2].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms == 4) {
+                    roomarr[3].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms == 5) {
+                    roomarr[4].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms == 6) {
+                    roomarr[5].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms == 7) {
+                    roomarr[6].push(jsonData[i].rooms);
+                }
+                else if (jsonData[i].rooms === "8+") {
+                    roomarr[7].push(jsonData[i].rooms);
+                }
+            }
             var data = new google.visualization.DataTable();
-            data.addColumn('string', 'House');
-            data.addColumn('number', 'Price($)');
-            for (var i = 0; i < jsonData.length; i++) {
+            data.addColumn('string', 'Rooms Count');
+            data.addColumn('number', 'Rooms Count');
+            for (var i = 0; i < 8; i++) {
                 data.addRows([
-                    [jsonData[i].location, Number(jsonData[i].price)]
+                    [String(i + 1) + " Rooms", roomarr[i].length]
                 ]);
             }
 
             var options = {
                 legend: 'left',
-                title: 'The high-priced houses',
+                title: 'Rooms Count',
                 is3D: true,
                 width: '100%',
                 height: '100%'
@@ -65,57 +101,55 @@ function drawPieChart() {
     });
 };
 
-function drawColumnChart() {
+function drawPieChart2() {
     $.ajax({
         url: "/houses",
         dataType: "json",
         success: function (jsonData) {
-            var room_1 = [];
-            var room_2 = [];
-            var room_3 = [];
-            var room_4 = [];
-            var room_5 = [];
-            var room_6 = [];
-            var room_7 = [];
-            var room_8 = [];
+            var roomarr = [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ];
             for (i = 0; i < jsonData.length; i++) {
-                if (jsonData[i].rooms == "1") {
-                    room_1.push(...jsonData[i].rooms);
+                if (jsonData[i].type == 'Քարե') {
+                    roomarr[0].push(jsonData[i].type);
                 }
-                else if (jsonData[i].rooms == "2") {
-                    room_2.push(...jsonData[i].rooms);
+                else if (jsonData[i].type == 'Պանելային') {
+                    roomarr[1].push(jsonData[i].type);
                 }
-                else if (jsonData[i].rooms == "3") {
-                    room_3.push(...jsonData[i].rooms);
+                else if (jsonData[i].type == 'Մոնոլիտ') {
+                    roomarr[2].push(jsonData[i].type);
                 }
-                else if (jsonData[i].rooms == "4") {
-                    room_4.push(...jsonData[i].rooms);
+                else if (jsonData[i].type == 'Աղյուսե') {
+                    roomarr[3].push(jsonData[i].type);
                 }
-                else if (jsonData[i].rooms == "5") {
-                    room_5.push(...jsonData[i].rooms);
+                else if (jsonData[i].type == 'Կասետային') {
+                    roomarr[4].push(jsonData[i].type);
                 }
-                else if (jsonData[i].rooms == "6") {
-                    room_6.push(...jsonData[i].rooms);
-                }
-                else if (jsonData[i].rooms == "7") {
-                    room_7.push(...jsonData[i].rooms);
-                }
-                else if (jsonData[i].rooms == "8+") {
-                    room_8.push(...jsonData[i].rooms);
+                else if (jsonData[i].type == 'Փայտե') {
+                    roomarr[5].push(jsonData[i].type);
                 }
             }
-
-            var data = google.visualization.arrayToDataTable([
-                ['Houses','1 Room', '2 Rooms', '3 Rooms', '4 Rooms', '5 Rooms', '6 Rooms', '7 Rooms', '8+ Rooms'],
-                ['Houses',room_1.length, room_2.length, room_3.length, room_4.length, room_5.length, room_6.length, room_7.length, room_8.length]
-            ]);
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Type');
+            data.addColumn('number', 'Type');
+            for (var i = 0; i < roomarr.length; i++) {
+                data.addRows([
+                    [roomarr[i][0], roomarr[i].length]
+                ]);
+            }
 
             var options = {
-                title: 'Rooms Count',
-                hAxis: { title: 'Rooms', titleTextStyle: { color: 'red' } }
+                title: 'Type',
+                pieHole: 0.4,
+                width: '100%',
+                height: '100%'
             };
-
-            var chart = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
             chart.draw(data, options);
         }
     });
@@ -123,6 +157,6 @@ function drawColumnChart() {
 
 $(window).resize(function () {
     drawPieChart();
-    drawColumnChart();
+    drawPieChart2();
     drawTable();
 });
