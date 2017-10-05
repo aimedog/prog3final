@@ -1,0 +1,772 @@
+{
+    "houses": [
+        {
+            "name": "Էջմիածնում վաճ. ֆուլ առանձնատուն, որը կարծես հանգստյան տուն լինի",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "500 m2",
+            "price": "85000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "Էջմիածնի շուկայից ոչ հեռու վաճ. գեղեցիկ նորոգված բաքսիով պարսպապատ հողամասով տու",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "360 m2",
+            "price": "58000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "Էջմիածնի արևմտյան մասում ահավոր լավ դիրքում վաճ. երկհարկանի նորակառույց առանձնատ",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "800 m2",
+            "price": "130000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "Էջմիածնի Բաղրամյան փ. վերջից թեքված 4ս դալանով առանձնատուն ջազզ181016",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "400 m2",
+            "price": "40000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "Նորագյուղում փոսի գայի մոտ վաճ 4ս քարե/բետոնածածկ երկհարկանի առանձնատուն 171ք բն",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "171 m2",
+            "price": "26000",
+            "location": "Երևան › Կենտրոն"
+        },
+        {
+            "name": "Ծաղկունք գ. վաճ. նորակառույց մեծ ճակատով առանձնատուն մեծ նկուղով",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "1000 m2",
+            "price": "30000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "Մուսալեռում վաճ. Եռահարկ առանձնատուն Մուսա լեռան հուշարձանի մոտ",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "1857 m2",
+            "price": "28000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "Paraqar arandznatun Փարաքարում առանձնատուն հողամաասով ԱՌԱՆՑ ՄԻՋՆՈՐԴԻ",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "61 m2",
+            "price": "66000",
+            "location": "Արմավիր › Էջմիածին"
+        },
+        {
+            "name": "ALEX-R Առանձնատուն 3 հարկանի կապիտալ վերանորոգված գույքով",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "375 m2",
+            "price": "230000",
+            "location": "Sebastia Street, Yerevan, Armenia"
+        },
+        {
+            "name": "Շքեղ առանձնատուն 1500քմ",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "1500 m2",
+            "price": "200000",
+            "location": "Արգավանդ, Արարատ, Հայաստան"
+        },
+        {
+            "name": "Vajarq amaranoc Arzaqanum, inqnarjeqic shat cacr",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "120 m2",
+            "price": "25000",
+            "location": "Կոտայք › Չարենցավան"
+        },
+        {
+            "name": "Sepakan tun Noragyuxum",
+            "type": "Քարե",
+            "rooms": "2",
+            "square": "238 m2",
+            "price": "19000",
+            "location": "Երևան › Կենտրոն"
+        },
+        {
+            "name": "Առանձնատւն Նորքի այգիներ",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "700 m2",
+            "price": "",
+            "location": "Nork-Marash, Yerevan, Armenia"
+        },
+        {
+            "name": "Սեփական Տուն առանձ միջնորդի",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "209 m2",
+            "price": "47000",
+            "location": "Sari Tagh, Yerevan, Armenia"
+        },
+        {
+            "name": "Առանձնատուն. Ջրվեժ Ա թաղամաս",
+            "type": "Քարե",
+            "rooms": "7",
+            "square": "480 m2",
+            "price": "",
+            "location": "Ջրվեժ, Ա թաղ. Կոտայք, Հայաստան"
+        },
+        {
+            "name": "HRATAP Sepakan Tun 4 senyak 120qm",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "600 m2",
+            "price": "75000",
+            "location": "Երևան › Էրեբունի"
+        },
+        {
+            "name": "Կոդ 6735 Gayi poxota, 1in masiv, arandznatun 225 q / m, 4 senyak",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "225 m2",
+            "price": "170000",
+            "location": "Gai Avenue, Yerevan, Armenia"
+        },
+        {
+            "name": "Erebuni Pox 1 Harkani arandznatun 40 qm 170 qm Hox",
+            "type": "Քարե",
+            "rooms": "2",
+            "square": "40 m2",
+            "price": "20000",
+            "location": "Երևան › Էրեբունի"
+        },
+        {
+            "name": "Arandznatun Erebunu zangvacum",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "352 m2",
+            "price": "30000",
+            "location": "Երևան › Էրեբունի"
+        },
+        {
+            "name": "2 հարկանի առանձնատուն, Էջմիածին քաղաքում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "800 m2",
+            "price": "40000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "1 հարկանի Սեփական տուն",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "1500 m2",
+            "price": "20000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի շուկայի մոտակայքում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "357 m2",
+            "price": "40000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Սեփական տուն փարաքարի դպրոցի մոտ",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "670 m2",
+            "price": "28000",
+            "location": "Parakar, Armavir Province, Armenia"
+        },
+        {
+            "name": "1 հարկանի առանձնատուն Էջմիածին քաղաքում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "400 m2",
+            "price": "48000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Թելման փողոց",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "230 m2",
+            "price": "21000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի Առանձնատուն Էջմիածնի Հ. Ավետիսյան փող",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "253 m2",
+            "price": "37000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Պատկանյան փող",
+            "type": "Քարե",
+            "rooms": "2",
+            "square": "200 m2",
+            "price": "22000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Օրջոնիկիձե փողոց",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "750 m2",
+            "price": "35000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն Ա. Մանուկյան թաղ",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "405 m2",
+            "price": "60000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի 3-րդ մասում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "600 m2",
+            "price": "33000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Եռահարկ առանձնատուն, erahark arandznatun",
+            "type": "Մոնոլիտ",
+            "rooms": "4",
+            "square": "150 m2",
+            "price": "90000",
+            "location": "Նորաշեն, Երևան, Հայաստան"
+        },
+        {
+            "name": "Առանձնատուն հոկտեմբեր փողոցում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "480 m2",
+            "price": "50000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Ղարիբջանյան փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "200 m2",
+            "price": "25000",
+            "location": "Էջմիածին, Արմավիրի մարզ, Հայաստան"
+        },
+        {
+            "name": "Էջմիածնի Շիրվանզադե փողոցում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "344 m2",
+            "price": "31000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն ք. Էջմիածնում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "970 m2",
+            "price": "100000",
+            "location": "Էջմիածին, Արմավիրի մարզ, Հայաստան"
+        },
+        {
+            "name": "Dzoraxpyurum Arandznatun",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "200 m2",
+            "price": "",
+            "location": "Dzoraghbyur, Kotayk Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Դաշտ գյուղում",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "3000 m2",
+            "price": "13000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի առանձնատուն Զվարթնոց թաղամասում",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "230 m2",
+            "price": "45000",
+            "location": "Zvartnots, Vagharshapat, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի Առանձնատուն Էջմիածնի Մ. Խորենացի փողոցում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "420 m2",
+            "price": "45000",
+            "location": "Էջմիածին, Արմավիրի մարզ, Հայաստան"
+        },
+        {
+            "name": "Առանձնատուն Էջմիածնի դիմիտրով փողոցում",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "340 m2",
+            "price": "70000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն Գրիբայեդով գյուղում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "1000 m2",
+            "price": "35000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Կիսակառույց շինություն Ա. Մանուկյան թաղ",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "480 m2",
+            "price": "20000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն Էջմիածնի կենտրոնական փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "170 m2",
+            "price": "38000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն 1 հարկանի",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "665 m2",
+            "price": "30000",
+            "location": "Էջմիածին, Արմավիրի մարզ, Հայաստան"
+        },
+        {
+            "name": "Էջմիածնի Ռ. Եսայան փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "939 m2",
+            "price": "40000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Սովետներ փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "517 m2",
+            "price": "40000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "260 m2",
+            "price": "25000",
+            "location": "Արագածոտն › Ապարան"
+        },
+        {
+            "name": "Առանձնատուն 3-րդ մասում",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "520 m2",
+            "price": "27000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Շքեղ առանձնատուն Էջմիածին քաղաքում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "660 m2",
+            "price": "100000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի առանձնատուն Էջմիածին քաղաքում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "280 m2",
+            "price": "65000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի առանձնատուն փարաքարում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "610 m2",
+            "price": "90000",
+            "location": "Parakar, Provincia di Armavir, Armenia"
+        },
+        {
+            "name": "Շքեղ առանձնատուն Շահումյան գյուղում",
+            "type": "Քարե",
+            "rooms": "7",
+            "square": "3700 m2",
+            "price": "",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "1 հարկանի առանձնատուն Զվարթնոցում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "1570 m2",
+            "price": "23000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Sepakan Tun",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "100 m2",
+            "price": "65000 ",
+            "location": "Qanaqer, Yerevan, Armenia"
+        },
+        {
+            "name": "Կիսակառույց շինություն փարաքարում",
+            "type": "Քարե",
+            "rooms": "7",
+            "square": "630 m2",
+            "price": "30000",
+            "location": "Արմավիր › Արմավիր"
+        },
+        {
+            "name": "Սեփական",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "420 m2",
+            "price": "65000 ",
+            "location": "Երևան › Շենգավիթ"
+        },
+        {
+            "name": "Առանձնատուն Էջմիածնի կենտրոնում",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "738 m2",
+            "price": "120000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն ք, Էջմիածին",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "570 m2",
+            "price": "27000",
+            "location": "Էջմիածին, Արմավիրի մարզ, Հայաստան"
+        },
+        {
+            "name": "Erebuni Taxapetarani Mot 1 Harkani Arandznatun 140 qm 1200 Hoxataracqov",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "140 m2",
+            "price": "80000",
+            "location": "Երևան › Էրեբունի"
+        },
+        {
+            "name": "Էջմիածնի Վ, Մամիկոնյան փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "850 m2",
+            "price": "50000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի առանձնատուն Ա. Մանուկյան թաղ",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "480 m2",
+            "price": "43000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Անդրանիկ թաղ",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "480 m2",
+            "price": "100000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Առանձնատուն Էջմիածին քաղաքում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "400 m2",
+            "price": "35000",
+            "location": "Էջմիածին, Արմավիր, Հայաստան"
+        },
+        {
+            "name": "Ամառանոց Ձորաղբյուրում",
+            "type": "Պանելային",
+            "rooms": "1",
+            "square": "55 m2",
+            "price": "10000",
+            "location": "Ձորաղբյուր, Կոտայք, Հայաստան"
+        },
+        {
+            "name": "Բնակելի տուն Դոսաֆի մոտակայքում",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "250 m2",
+            "price": "25000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Իսակով փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "668 m2",
+            "price": "25000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Շահումյան գյուղում",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "155 m2",
+            "price": "25000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Աթարբեկյան գյուղ",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "3900 m2",
+            "price": "160000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "1 հարկանի Առանձնատուն Էջմիածնի Պատկանյան փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "570 m2",
+            "price": "28000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Էջմիածնի Նալբանդյան փող",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "366 m2",
+            "price": "20000",
+            "location": "Էջմիածին, Արմավիրի մարզ, Հայաստան"
+        },
+        {
+            "name": "2 հարկանի Առանձնատուն Էջմիածնում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "486 m2",
+            "price": "50000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "2 հարկանի Առանձնատուն Այգեշատ գյուղում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "2800 m2",
+            "price": "31000",
+            "location": "Ejmiatsin, Armavir Province, Armenia"
+        },
+        {
+            "name": "Սեփ. տուն փող. պարոնյան առաջին գիծ հայ. զարգացման բանկի դիմաց",
+            "type": "Քարե",
+            "rooms": "1",
+            "square": "30 m2",
+            "price": "12500",
+            "location": "Երևան › Կենտրոն"
+        },
+        {
+            "name": "Tun տուն dacha aranznatun",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "140 m2",
+            "price": "70000",
+            "location": "Արագածոտն › Աշտարակ"
+        },
+        {
+            "name": "Երկու հարկանի առանձնատուն ՄՈՒՂՆԻ",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "320 m2",
+            "price": "110000",
+            "location": "Արագածոտն › Աշտարակ"
+        },
+        {
+            "name": "ԿՈԴ 8654. եռահարկ առանձնատուն Բաղյան փողոցում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "500 m2",
+            "price": "139000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "ԿՈԴ 7437. երկահարկանի առանձնատուն Ջրվեժում",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "608 m2",
+            "price": "300000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "ԿՈԴ 5961. եռահարկ առանձնատուն Բաղյան փողոցում",
+            "type": "Քարե",
+            "rooms": "7",
+            "square": "500 m2",
+            "price": "",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "ԿՈԴ 9091.1 հարկանի կիսակառույց շինություն Ջրվեժում",
+            "type": "Քարե",
+            "rooms": "4",
+            "square": "550 m2",
+            "price": "21000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Erku hargani sepakan tun Verin Artashatum",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "210 m2",
+            "price": "25000",
+            "location": "Verin Artashat, Ararat Province, Armenia"
+        },
+        {
+            "name": "ԿՈԴ 6927.4 հարկանի առանձնատուն Ջրվեժի ամառանոցներում",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "1200 m2",
+            "price": "250000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Սեփ. տուն ՊԱՐՈՆՅԱՆ փող. առաջին գիծ, հիվանդանոցի դիմաց",
+            "type": "Քարե",
+            "rooms": "1",
+            "square": "30 m2",
+            "price": "12500",
+            "location": "Երևան › Արաբկիր"
+        },
+        {
+            "name": "ԿՈԴ 6934.1 հարկանի առանձնատուն Մայիսի 9-ի փողոցում",
+            "type": "Քարե",
+            "rooms": "2",
+            "square": "180 m2",
+            "price": "27000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Arandznatun Parpium, Ashtarak",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "210 m2",
+            "price": "35000",
+            "location": "Արագածոտն › Աշտարակ"
+        },
+        {
+            "name": "ԿՈԴ` 9493. եռահարկ առանձնատուն Ձորաղբյուրում` Լիա խանութի մոտակայքում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "2500 m2",
+            "price": "95000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "ԿՈԴ 6019.1 հարկանի առանձնատուն Դ. Բեկ փողոցում",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "300 m2",
+            "price": "28000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Arinj elit taxamas norakaruyc",
+            "type": "Քարե",
+            "rooms": "6",
+            "square": "806 m2",
+            "price": "210000",
+            "location": "Arinj, Kotayk Province, Armenia"
+        },
+        {
+            "name": "Sepakan arandznatun",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "100 m2",
+            "price": "29000",
+            "location": "Երևան › Աջափնյակ"
+        },
+        {
+            "name": "ԿՈԴ 7570. նորակառույց երկհարկանի առանձնատուն Ջրվեժ ամառանոցներում",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "500 m2",
+            "price": "35000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Քարե շինություն",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "260 m2",
+            "price": "90000",
+            "location": "Շիրակ › Գյումրի"
+        },
+        {
+            "name": "ԿՈԴ 6746. երկհարկանի առանձնատուն Ջրվեժում",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "1030 m2",
+            "price": "60000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Բարև բոլորին",
+            "type": "Քարե",
+            "rooms": "3",
+            "square": "60 m2",
+            "price": "3500",
+            "location": "Շիրակ › Գյումրի"
+        },
+        {
+            "name": "ԿՈԴ 7919. երկհարկանի նորակառույց առանձնատուն Նորքի 7-րդ զանգվածում",
+            "type": "Քարե",
+            "rooms": "7",
+            "square": "600 m2",
+            "price": "125000",
+            "location": "Երևան › Նոր Նորք"
+        },
+        {
+            "name": "Sepakan Tun Erebuni poxocum",
+            "type": "Քարե",
+            "rooms": "5",
+            "square": "350 m2",
+            "price": "",
+            "location": "Երևան › Էրեբունի"
+        },
+        {
+            "name": "Առանձնատուն Նոյ թաղամասում, house at Noy district, дом в районе Ной",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "761 m2",
+            "price": "",
+            "location": "Երևան › Մալաթիա Սեբաստիա"
+        },
+        {
+            "name": "Nor-Areshum nor-kapital veranorogvac arandznatun",
+            "type": "Քարե",
+            "rooms": "8+",
+            "square": "300 m2",
+            "price": "220000",
+            "location": "Երևան › Էրեբունի"
+        }
+    ]
+}
