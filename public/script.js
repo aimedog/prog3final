@@ -1,4 +1,7 @@
-google.charts.load('45', { packages: ['corechart', 'table', 'geochart'] });
+google.charts.load('45', { packages: ['corechart', 'table'] });
+
+google.charts.setOnLoadCallback(drawPieChart);
+google.charts.setOnLoadCallback(drawPieChart2);
 
 google.charts.setOnLoadCallback(drawTable);
 
